@@ -25,7 +25,7 @@ func main() {
 
 
 
-	conn, err := net.ListenUDP("udp", addr)
+	conn, err := net.ListenUDP("udp", addr // listens for UDP packets at the address defined above
 
 
 	if err != nil {

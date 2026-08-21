@@ -2,13 +2,15 @@
  UDP Client to interact with UDP_Server.go
  Will send UDP packets(bytes) to the server,
  which will be stringified and printed by the Server into the console.
- */
+
+ The Client sends a message which says "UDP MESSAGE" to the UDP Server.
+*/
 
 package main
 
 import (
-	"net"
 	"log"
+	"net"
 )
 
 func main() {
